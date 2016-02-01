@@ -3,10 +3,12 @@
 //  ColorView
 //
 //  Created by M on 2016-01-26.
+
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
     var redSliderFloat:Float = 0.0
     var greenSliderFloat:Float = 0.0
     var blueSliderFloat:Float = 0.0
@@ -57,6 +59,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        view.backgroundColor = UIColor.blackColor()
     }
 
     override func didReceiveMemoryWarning() {
